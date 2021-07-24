@@ -1,4 +1,4 @@
-package com.example.uastotoandrigunawan;
+package com.example.uasahmadhusienr;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +23,7 @@ private Button btnmenu;
         });
     }
     public void openLoginMain(){
-        Intent intent = new Intent(this, com.example.uastotoandrigunawan.MainActivity2.class);
+        Intent intent = new Intent(this, com.example.uasahmadhusienr.MainActivity2.class);
         startActivity(intent);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.uastotoandrigunawan;
+package com.example.uasahmadhusienr;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.uastotoandrigunawan.ui.login.LoginActivity;
+import com.example.uasahmadhusienr.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;

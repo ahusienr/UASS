@@ -1,6 +1,6 @@
-package com.example.uastotoandrigunawan.data;
+package com.example.uasahmadhusienr.data;
 
-import com.example.uastotoandrigunawan.data.model.LoggedInUser;
+import com.example.uasahmadhusienr.data.model.LoggedInUser;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.example.uastotoandrigunawan.ui.login;
+package com.example.uasahmadhusienr.ui.login;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.uastotoandrigunawan.R;
+import com.example.uasahmadhusienr.R;
 
 public class LoginActivity extends AppCompatActivity {
 

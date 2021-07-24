@@ -1,4 +1,4 @@
-package com.example.uastotoandrigunawan.ui.home;
+package com.example.uasahmadhusienr.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.uastotoandrigunawan.R;
+import com.example.uasahmadhusienr.R;
 
 public class HomeFragment extends Fragment {
 

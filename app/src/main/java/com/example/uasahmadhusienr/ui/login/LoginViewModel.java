@@ -1,4 +1,4 @@
-package com.example.uastotoandrigunawan.ui.login;
+package com.example.uasahmadhusienr.ui.login;
 
 import android.util.Patterns;
 
@@ -6,16 +6,16 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.uastotoandrigunawan.R;
-import com.example.uastotoandrigunawan.data.LoginRepository;
-import com.example.uastotoandrigunawan.data.Result;
-import com.example.uastotoandrigunawan.data.model.LoggedInUser;
+import com.example.uasahmadhusienr.R;
+import com.example.uasahmadhusienr.data.LoginRepository;
+import com.example.uasahmadhusienr.data.Result;
+import com.example.uasahmadhusienr.data.model.LoggedInUser;
 
 public class LoginViewModel extends ViewModel {
 
-    private MutableLiveData<LoginFormState> loginFormState = new MutableLiveData<>();
-    private MutableLiveData<LoginResult> loginResult = new MutableLiveData<>();
-    private LoginRepository loginRepository;
+    private final MutableLiveData<LoginFormState> loginFormState = new MutableLiveData<>();
+    private final MutableLiveData<LoginResult> loginResult = new MutableLiveData<>();
+    private final LoginRepository loginRepository;
 
     LoginViewModel(LoginRepository loginRepository) {
         this.loginRepository = loginRepository;
